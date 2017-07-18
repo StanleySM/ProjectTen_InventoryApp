@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">My Inventory App</string>
+
+    <string name="button_upload_image">Upload Inventory Image</string>
+    <string name="fake_item_name">Item 1</string>
+    <string name="list_item_pieces_title">pcs</string>
+    <string name="fake_item_pieces">0</string>
+    <string name="item_price_title"> CZK</string>
+    <string name="fake_item_price">50</string>
+    <string name="btn_sell_item">Sell Item</string>
+    <string name="edit_activity_name_title">Item:</string>
+    <string name="edit_activity_price_title">Price:</string>
+    <string name="edit_activity_pieces_title">Pieces:</string>
+    <string name="error_update_item">Error updating item</string>
+    <string name="item_update_done">Item updated</string>
+    <string name="delete_Q">Do you want delete this item?</string>
+    <string name="error_delete_item">Not possible to delete this item</string>
+    <string name="item_deleted">Item deleted successfully</string>
+    <string name="empty_item_fields">Insert all information</string>
+    <string name="next_storage">External storage</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_item_button">Add Item</string>
+    <string name="nothing_inStore">Nothing in store...</string>
+    <string name="insert_an_item">Insert an Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="pieces_store">Pieces</string>
+    <string name="price">Price</string>
+    <string name="requirment_permiss">Permission required</string>
+    <string name="request_permiss">permission is necessary</string>
+    <string name="error_permiss">Permission Denied</string>
+    <string name="first_line_name">Image</string>
+    <string name="second_line_name">Item</string>
+    <string name="third_line_name">Quantity/Price</string>
+    <string name="fourth_line_name">Buy/Sell</string>
+    <string name="send_order_button">Send order</string>
+    <string name="button_save">Save</string>
+    <string name="button_erase">Erase item</string>
+    <string name="error_toSell_item">Not possible to sell item</string>
+    <string name="change_name_of_item">Edit Item</string>
+    <string name="first_line">Dear Mr/Mrs,</string>
+    <string name="mail_body">I would like make order for this items listened bellow. Thank you!</string>
+    <string name="name_of_item">Item Name:</string>
+    <string name="best_regards">Best regards,</string>
+    <string name="subject">Ordering item to stock: </string>
+
+
+
+</resources>

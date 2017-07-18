@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/edit_layout_main">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/edit_image"
+        android:src="@mipmap/ic_launcher" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/edit_text"
+            android:text="@string/edit_activity_name_title" />
+
+        <EditText
+            android:id="@+id/change_item_name"
+            style="@style/edit_text_field"
+            android:text="@string/fake_item_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/edit_layout_text_fields">
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/edit_price"
+            android:text="@string/item_price_title" />
+
+        <EditText
+            android:id="@+id/change_price"
+            style="@style/edit_price_field"
+            android:text="@string/fake_item_price" />
+
+        <TextView
+            android:id="@+id/pieces"
+            style="@style/edit_pieces"
+            android:text="@string/edit_activity_pieces_title" />
+
+        <EditText
+            android:id="@+id/change_pieces"
+            style="@style/edit_pieces_field"
+            android:text="@string/fake_item_pieces"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/edit_layout_top_buttons">
+
+        <Button
+            android:id="@+id/send_order"
+            style="@style/button_send_order"
+            android:layout_weight="1"
+            android:onClick="orderFunction"
+            android:text="@string/send_order_button" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/edit_layout_buttons">
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/edit_button_save"
+        android:onClick="clickOnSaveButton"
+        android:text="@string/button_save" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="@style/edit_button_delete"
+        android:onClick="onEraseButton"
+        android:text="@string/button_erase" />
+    </LinearLayout>
+</LinearLayout>

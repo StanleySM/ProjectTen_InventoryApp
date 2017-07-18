@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/insert_item_layout">
+
+    <TextView
+        style="@style/insert_item_header"
+        android:text="@string/insert_an_item"/>
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/insert_item_field"
+        android:hint="@string/item_name" />
+
+    <EditText
+        android:id="@+id/pieces"
+        android:inputType="number"
+        style="@style/insert_item_field"
+        android:hint="@string/pieces_store"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:inputType="number"
+        style="@style/insert_item_field"
+        android:hint="@string/price"/>
+
+    <Button
+        android:id="@+id/button_upload_image"
+        style="@style/insert_item_field"
+        android:text="@string/button_upload_image"/>
+
+</LinearLayout>

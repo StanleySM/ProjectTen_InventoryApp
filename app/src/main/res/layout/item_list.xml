@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/item_list_layout">
+
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/item_list_imageview"
+        android:src="@drawable/ic_done"/>
+            <TextView
+                android:id="@+id/name"
+                style="@style/item_list_item_name"
+                android:text="@string/fake_item_name" />
+            <LinearLayout
+                style="@style/item_list_layout_second">
+                <LinearLayout
+                    style="@style/item_list_table_row">
+
+                    <TextView
+                        android:id="@+id/pieces_text"
+                        android:layout_width="35dp"
+                        style="@style/item_list_table_item"
+                        android:text="@string/fake_item_pieces" />
+
+                    <TextView
+                        android:id="@+id/pieces"
+                        android:layout_width="25dp"
+                        style="@style/item_list_table_item"
+                        android:text="@string/list_item_pieces_title" />
+                        </LinearLayout>
+
+                <LinearLayout
+                    style="@style/item_list_table_row">
+
+                    <TextView
+                        android:id="@+id/price_text"
+                        android:layout_width="35dp"
+                        style="@style/item_list_table_item"
+                        android:text="@string/fake_item_price" />
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="30dp"
+                        style="@style/item_list_table_item"
+                        android:text="@string/item_price_title" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/item_list_layout_button">
+
+
+            <Button
+                android:id="@+id/buy_by_one_button"
+                style="@style/item_list_buttons"
+                android:text="+"/>
+                <Button
+                android:id="@+id/sell_by_one_button"
+                    style="@style/item_list_buttons"
+                android:text="-"/>
+            </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>
